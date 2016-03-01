@@ -62,7 +62,7 @@ public class CustomUIActivity extends AppCompatActivity {
         if (mCheckBoxMenu.isChecked()) {
             builder.addMenuItem("分享", createPendingIntent());
             VectorDrawableCompat icon = VectorDrawableCompat.create(getResources(), R.drawable
-                    .ic_vector_search, null);
+                    .ic_vector_share, null);
             PendingIntent pendingIntent = createPendingIntent();
             builder.setActionButton(getBitmap(icon), "分享", pendingIntent);
         }
